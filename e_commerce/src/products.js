@@ -12,56 +12,56 @@ export const PRODUCTS = [
         id: 1,
         productName: "IPhone",
         price: 999.0,
-        productImage: product1
+        productImage: product1,
 
     },
     {
         id: 2,
         productName: "Macbook",
         price: 999.0,
-        productImage: product2
+        productImage: product2,
 
     },
     {
         id: 3,
         productName: "Camera",
         price: 699.0,
-        productImage: product3
+        productImage: product3,
 
     },
     {
         id: 4,
         productName: "Jacket",
         price: 54.0,
-        productImage: product4
+        productImage: product4,
 
     },
     {
         id: 5,
         productName: "Led lights",
         price: 12.0,
-        productImage: product5
+        productImage: product5,
 
     },
     {
         id: 6,
         productName: " Groovy T-shirt",
         price: 15.0,
-        productImage: product6
+        productImage: product6,
 
     },
     {
         id: 7,
         productName: "Plain T-Shirt",
         price: 5.0,
-        productImage: product7
+        productImage: product7,
 
     },
     {
         id: 8,
         productName: "Funky hat",
         price: 10.0,
-        productImage: product8
+        productImage: product8,
 
     },
-]
+];
