@@ -2,6 +2,8 @@ import React from "react";
 import { PRODUCTS } from "../../products";
 import { ShopContext } from "../../context/shop-context";
 import { useContext } from "react";
+import { CartItem } from "./cart-item"
+import "./cart.css"
 
 export const Cart = () => {
     const { cartItems } = useContext(ShopContext);
@@ -18,6 +20,12 @@ export const Cart = () => {
                     return <CartItem data={product} />
                 }
             })}
+            </div>
+            <div className="checkout">
+                <p> Subtotal: $</p>
+                <button> Continue Shopping</button>
+                <button> checkout </button>
+
             </div>
         </div>
     )
